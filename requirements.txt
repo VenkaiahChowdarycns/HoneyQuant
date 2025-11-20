@@ -1,0 +1,6 @@
+pandas>=2.0.0
+python-binance>=1.0.19
+groq>=0.4.0
+python-dotenv>=1.0.0
+pyarrow>=14.0.0
+
