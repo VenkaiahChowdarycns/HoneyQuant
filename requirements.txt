@@ -1,6 +1,23 @@
-pandas>=2.0.0
-python-binance>=1.0.19
-groq>=0.4.0
-python-dotenv>=1.0.0
-pyarrow>=14.0.0
+# Core processing
+pandas==2.2.2
+numpy>=1.26
 
+# API + HTTP
+requests==2.32.3
+
+# Environment variables
+python-dotenv==1.0.1
+
+# Parquet export
+pyarrow==17.0.0
+
+# Groq LLM client
+groq==0.7.0
+
+# Timezone + utilities
+pytz==2024.1
+
+# Logging (built-in, no package required)
+
+# Optional: faster data manipulation, if needed later
+# polars==1.7.1
